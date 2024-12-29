@@ -1,6 +1,6 @@
-from fake_math import divide as divf
-from true_math import divide as divt
-print(divf(69, 3))
-print(divf(3, 0))
-print(divt(49,7))
-print(divt(15,0))
+from fake_math import divide as div_f
+from true_math import divide as div_t
+print(div_f(69, 3))
+print(div_f(3, 0))
+print(div_t(49,7))
+print(div_t(15,0))
